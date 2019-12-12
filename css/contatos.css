@@ -1,0 +1,57 @@
+body{
+  background-image: url(../img/bg-full.png);
+  color: fff;
+}
+.intro{
+  margin-top: 2%
+}
+.btn-link:hover{
+  color:#E6EAEC;
+}
+#coluna-imgs{
+  margin-top: 7%;
+}
+#coluna-imgs div{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#coluna-imgs div img{
+  width: 10%;
+  height: 5%;
+  margin-right: 15px;
+}
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+#forma-mapa{
+  background-color: transparent;
+  border: 10px;
+}
+.form-map{
+  height: 300px;
+}
+footer{
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+}
+footer figure{
+  display: inline;
+  margin: 5px;
+}
+footer figure a:hover{
+  text-decoration: none;
+}
+footer figure img{
+  width: 40px;
+}
